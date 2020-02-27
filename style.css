@@ -12,6 +12,7 @@ body {
 #artboard{
     height: 200%;
     margin: 0;
+    width: 100%;
 }
 .zdog-canvas {
     background: #1c1c1c;
