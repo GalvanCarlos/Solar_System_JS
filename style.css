@@ -9,6 +9,10 @@ body {
 
     height: 100%;
 }
+#artboard{
+    height: 200%;
+    margin: 0;
+}
 .zdog-canvas {
     background: #1c1c1c;
     display: block;
@@ -17,35 +21,31 @@ body {
     position: relative;
     cursor: move;
 }.zdog-canvas-star {
-    background: #FF9505;
+    background: #1c1c1c;
     display: block;
     width: 100%;
-   position: relative;
+    position: relative;
 
     cursor: move;
 }
+a{
+    font-family: monospace;
 
+}
 
 .info {
-    position:absolute;
+    position: absolute;
     display:block;
     width: 100%;
     bottom: 10%;
 
     text-align: center;
-    color: #FF9505;
+
 }
-.info2 {
-    position:absolute;
-    display:block;
-    width: 100%;
-    bottom: 10%;
 
-    text-align: center;
+#starInfo{
     color: #fff;
 }
 
-a{
-    font-family: monospace;
-}
+
 
